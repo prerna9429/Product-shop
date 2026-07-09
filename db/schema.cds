@@ -1,11 +1,11 @@
 namespace sap.cap.Productshop;
-entity Products {
+entity Product {
     key ID        : Integer;
         Name      : String;
         Stock     : Integer;
         Price     : Integer;
-        Catergory : Integer;
-}
+        Category  : Integer;
+} 
 
 entity Supplier {
     key ID    : UUID;
