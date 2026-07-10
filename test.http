@@ -3,7 +3,19 @@
 
 #GET http://localhost:4004/rest/product/MyFunction(category=2)
 
-GET http://localhost:4004/odata/v4/productshop/Supplier
+#GET http://localhost:4004/odata/v4/productshop/Supplier
 
 
-#GET http://localhost:4004/odata/v4/productshop/Product
+POST http://localhost:4004/odata/v4/productshop/Product
+Content-Type: application/json
+
+
+{     
+    "emission": 20000,
+      "Rating": "D+",
+      "ID": 4,
+      "Name": "Maruti Suzuki",
+      "Category": 3,
+      "Cost_price": 124224,
+      "Cost_stock": 12
+}

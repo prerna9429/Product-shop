@@ -1,4 +1,4 @@
-ID,Name,Stock,Price,Category
-1, Audi,30,43224,2
-2, BMW,12,1321,3
-3, Hundai,10,23212,4
+ID,Name,Category,cost_price,cost_stock, emission,Rating
+1, Audi,30,43224,2,20000,A+
+2, BMW,12,1321,3,30000,B+
+3, Hundai,10,23212,4,45000,C+
